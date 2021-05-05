@@ -6,7 +6,7 @@ const sentences = [ // 定数の宣言
 ];
 
 function say({ subject, verb, object }) { // オブジェクトのデストラクチャリング
-  console.log(`${subject} ${verb} ${object}`); // テンプレート文字列
+  // console.log(`${subject} ${verb} ${object}`); // テンプレート文字列
 }
 
 for(let s of sentences) { // for ... ofの構文とlet

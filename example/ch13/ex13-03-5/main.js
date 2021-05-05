@@ -19,3 +19,4 @@ function getRainbowIterator() {
   };
 }
 // #@@range_end(list1)
+//イテレータのふりをしているだけで、別にイテレータじゃなくても良い

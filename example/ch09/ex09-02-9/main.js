@@ -21,6 +21,11 @@ for(let p in obj) {
   console.log(`${p}: ${obj[p]}` +
 	      (obj.hasOwnProperty(p) ? '' : ' (継承)')); /* 三項演算子 5章参照 */
 }
+
+
+// Object.keys(obj)
+//   .forEach(prop => console.log(`${prop}: ${obj[prop]}`));
+
 /* 実行結果
 name: Sub
 isSuper: true
